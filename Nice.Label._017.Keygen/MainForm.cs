@@ -383,64 +383,95 @@ namespace Nice.Label._017.Keygen
 
 		private void InitializeComponent()
 		{
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.button1 = new System.Windows.Forms.Button();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.label3 = new System.Windows.Forms.Label();
-			base.SuspendLayout();
-			this.label1.Location = new System.Drawing.Point(12, 71);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(311, 23);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "Registration Code: (paste registration code here:)";
-			this.label2.Location = new System.Drawing.Point(12, 162);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(167, 23);
-			this.label2.TabIndex = 1;
-			this.label2.Text = "Activation Code:";
-			this.textBox1.Location = new System.Drawing.Point(12, 97);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(325, 20);
-			this.textBox1.TabIndex = 2;
-			this.button1.Location = new System.Drawing.Point(12, 136);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 3;
-			this.button1.Text = "Generate";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(Button1Click);
-			this.textBox2.Location = new System.Drawing.Point(12, 188);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(325, 20);
-			this.textBox2.TabIndex = 4;
-			this.textBox2.TextChanged += new System.EventHandler(TextBox2TextChanged);
-			this.textBox3.Location = new System.Drawing.Point(12, 35);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(325, 20);
-			this.textBox3.TabIndex = 6;
-			this.textBox3.Text = "QEQ9D-3YLE2-59JG9-GNW6U-R7Y2W";
-			this.label3.Location = new System.Drawing.Point(12, 9);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
-			this.label3.TabIndex = 5;
-			this.label3.Text = "License Key:";
-			base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			base.ClientSize = new System.Drawing.Size(387, 257);
-			base.Controls.Add(this.textBox3);
-			base.Controls.Add(this.label3);
-			base.Controls.Add(this.textBox2);
-			base.Controls.Add(this.button1);
-			base.Controls.Add(this.textBox1);
-			base.Controls.Add(this.label2);
-			base.Controls.Add(this.label1);
-			base.Name = "MainForm";
-			this.Text = "Nice Label 2017 Keygen by CodeCracker";
-			base.ResumeLayout(false);
-			base.PerformLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(12, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(311, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Registration Code: (paste registration code here:)";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(12, 162);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(167, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Activation Code:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 97);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(325, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 136);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Generate";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(12, 188);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(325, 20);
+            this.textBox2.TabIndex = 4;
+            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2TextChanged);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(12, 35);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(325, 20);
+            this.textBox3.TabIndex = 6;
+            this.textBox3.Text = "QEQ9D-3YLE2-59JG9-GNW6U-R7Y2W";
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "License Key:";
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(387, 257);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "MainForm";
+            this.Text = "Nice Label 2017 Keygen by Arman Ridho";
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
-	}
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
