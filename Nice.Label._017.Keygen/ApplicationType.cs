@@ -1,0 +1,29 @@
+namespace Nice.Label._017.Keygen
+{
+	public enum ApplicationType
+	{
+		Unknown,
+		Free,
+		FreeAdvanced,
+		LabelExpress,
+		LabelPro,
+		Form,
+		Watch,
+		Data,
+		MemMaster,
+		Skd,
+		NicePrint,
+		Syncman,
+		WatchSrv,
+		PrintCenter,
+		Engine,
+		WatchMngr,
+		WatchSrvMngr,
+		Automation,
+		AutomationManager,
+		DesignerStandard,
+		NicePrintStandard,
+		AutomationConfigurator,
+		Runner
+	}
+}
